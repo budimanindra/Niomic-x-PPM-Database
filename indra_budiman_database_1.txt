@@ -1,0 +1,4 @@
+SELECT * FROM districts;
+SELECT * FROM provinces;
+SELECT * FROM regencies;
+SELECT * FROM villages;

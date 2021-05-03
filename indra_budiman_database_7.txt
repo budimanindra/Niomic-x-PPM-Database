@@ -1,0 +1,5 @@
+SELECT d.id_desa, d.desa, p.provinsi
+FROM desa d
+INNER JOIN kecamatan k ON d.id_desa=k.id
+INNER JOIN kabupaten_kota kk ON k.id_kabupaten_kota=kk.id
+INNER JOIN provinsi p ON p.id=kk.id_provinsi;

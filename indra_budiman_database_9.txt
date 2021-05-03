@@ -1,0 +1,4 @@
+SELECT k.id_kabupaten_kota, kk.kabupaten_kota, p.provinsi
+FROM kecamatan k
+INNER JOIN kabupaten_kota kk ON k.id_kabupaten_kota=kk.id
+INNER JOIN provinsi p ON p.id=kk.id_provinsi;
