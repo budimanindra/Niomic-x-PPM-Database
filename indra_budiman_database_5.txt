@@ -1,3 +1,1 @@
-CREATE DATABASE indra_budiman;
-use indra_budiman
-source indonesia.sql
+RENAME TABLE `districts` TO `kecamatan`;

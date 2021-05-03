@@ -1,3 +1,4 @@
-CREATE DATABASE indra_budiman;
-use indra_budiman
-source indonesia.sql
+SELECT * FROM districts;
+SELECT * FROM provinces;
+SELECT * FROM regencies;
+SELECT * FROM villages;
